@@ -1,0 +1,22 @@
+{
+  "name": "watson-token",
+  "version": "0.0.4",
+  "description": "Ibm watson token generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ibm",
+    "watson",
+    "ibm-watson",
+    "toke",
+    "token-generator",
+    "generator",
+    "speech-to-text"
+  ],
+  "author": "saifulriza",
+  "license": "MIT",
+  "dependencies": {}
+}
