@@ -1,3 +1,7 @@
+## IBM Watson Token Generator
+
+![Publish package](https://github.com/saifulriza/watson-token/workflows/Publish%20package/badge.svg?branch=main)
+
 ## Installation
 
 ```
