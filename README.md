@@ -29,12 +29,12 @@ generateToken(
 ```
 import generateToken from "watson-token";
 generateToken(
-    "proxy-watson.herokuapp.com", // your domain proxy for bypassing cors
-    "/identity/token", // path of your proxy
-    "80", // port of your proxy. default is 80
-    "iGjNmBnh6rTw4P5EEk_5rYchhsQgtILxaJY0GAZk5Loo", //your apiKey
+    "proxy-watson.herokuapp.com",                           // your domain proxy for bypassing cors
+    "/identity/token",                                      // path of your proxy
+    "80",                                                   // port of your proxy. default is 80
+    "iGjNmBnh6rTw4P5EEk_5rYchhsQgtILxaJY0GAZk5Loo",         // your apiKey
     (response) => {
-     console.log(response); //get your generated key
+     console.log(response);                                 // get your generated key
     }
   );
 ```
