@@ -12,17 +12,19 @@ generateToken(
     PATH,
     PORT,
     APIKEY,
-    FUNCTION CALLBACK
+    CALLBACK
   );
 ```
 
-DOMAIN => string
-PATH => string
-PORT => number
-APIKEY => string
-FUNCTION CALLBACK => function
+| name     | type     |
+| -------- | -------- |
+| DOMAIN   | string   |
+| PATH     | string   |
+| PORT     | number   |
+| APIKEY   | string   |
+| CALLBACK | function |
 
-## example
+## Example
 
 ```
 import generateToken from "watson-token";
@@ -37,7 +39,9 @@ generateToken(
   );
 ```
 
-if you want ot create your own proxy, you can just copy paste this short code :
+## Proxy
+
+if you want to create your own proxy, you can just copy paste this short code :
 
 ```
 const express = require("express");
@@ -56,5 +60,6 @@ app.use(
 app.listen(PORT);
 ```
 
-make sure you have installed express (npm install express), cors (npm install cors) and http-proxy-middleware (npm i http-proxy-middleware).
+Make sure you have installed express (npm install express), cors (npm install cors) and http-proxy-middleware (npm i http-proxy-middleware) to run this code.
+
 for complete documentation of http-proxy-middleware you can find [here!](https://github.com/chimurai/http-proxy-middleware#readme)
