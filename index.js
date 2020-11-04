@@ -7,10 +7,16 @@ function generateToken(url, path = "/", port = 80, apiKey, callback) {
   let response = [];
   if (url && apiKey && callback) {
     if (typeof url == !"string") throw "url must be a string";
+<<<<<<< HEAD
     if (typeof apiKey == !"string") throw "apiKey must be a string";
     if (typeof port == !"number") throw "port must be a number";
     if (typeof url == !"string") throw "url must be a string";
     if (typeof path == !"string") throw "path must be a string";
+=======
+    if (typeof path == !"string") throw "path must be a string";
+    if (typeof port == !"number") throw "port must be a number";
+    if (typeof apiKey == !"string") throw "apiKey must be a string";
+>>>>>>> watson token generator
     if (typeof callback == !"function") throw "callback must be a function";
 
     const data = querystring.stringify({
