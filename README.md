@@ -1,3 +1,7 @@
+## Warning
+
+Don't use this package for production. your apikey will exposed when program generating token
+
 ## Installation
 
 ```
@@ -12,19 +16,6 @@ generateToken(
     PATH,
     PORT,
     APIKEY,
-<<<<<<< HEAD
-    FUNCTION CALLBACK
-  );
-```
-
-DOMAIN => string
-PATH => string
-PORT => number
-APIKEY => string
-FUNCTION CALLBACK => function
-
-## example
-=======
     CALLBACK
   );
 ```
@@ -38,7 +29,6 @@ FUNCTION CALLBACK => function
 | CALLBACK | function |
 
 ## Example
->>>>>>> watson token generator
 
 ```
 import generateToken from "watson-token";
@@ -56,10 +46,12 @@ generateToken(
 <<<<<<< HEAD
 if you want ot create your own proxy, you can just copy paste this short code :
 =======
+
 ## Proxy
 
 if you want to create your own proxy, you can just copy paste this short code :
->>>>>>> watson token generator
+
+> > > > > > > watson token generator
 
 ```
 const express = require("express");
@@ -83,5 +75,5 @@ make sure you have installed express (npm install express), cors (npm install co
 =======
 make sure you have installed express (npm install express), cors (npm install cors) and http-proxy-middleware (npm i http-proxy-middleware) to run this code.
 
->>>>>>> watson token generator
-for complete documentation of http-proxy-middleware you can find [here!](https://github.com/chimurai/http-proxy-middleware#readme)
+> > > > > > > watson token generator
+> > > > > > > for complete documentation of http-proxy-middleware you can find [here!](https://github.com/chimurai/http-proxy-middleware#readme)
