@@ -1,6 +1,12 @@
+
 ## Warning
 
 Don't use this package for production. your apikey will exposed when program generating token
+=======
+## IBM Watson Token Generator
+
+![Publish package](https://github.com/saifulriza/watson-token/workflows/Publish%20package/badge.svg?branch=main)
+
 
 ## Installation
 
@@ -33,25 +39,19 @@ generateToken(
 ```
 import generateToken from "watson-token";
 generateToken(
-    "proxy-watson.herokuapp.com", // your domain proxy for bypassing cors
-    "/identity/token", // path of your proxy
-    "80", // port of your proxy. default is 80
-    "iGjNmBnh6rTw4P5EEk_5rYchhsQgtILxaJY0GAZk5Loo", //your apiKey
+    "proxy-watson.herokuapp.com",                           // your domain proxy for bypassing cors
+    "/identity/token",                                      // path of your proxy
+    "80",                                                   // port of your proxy. default is 80
+    "iGjNmBnh6rTw4P5EEk_5rYchhsQgtILxaJY0GAZk5Loo",         // your apiKey
     (response) => {
-     console.log(response); //get your generated key
+     console.log(response);                                 // get your generated key
     }
   );
 ```
 
-<<<<<<< HEAD
-if you want ot create your own proxy, you can just copy paste this short code :
-=======
-
 ## Proxy
 
 if you want to create your own proxy, you can just copy paste this short code :
-
-> > > > > > > watson token generator
 
 ```
 const express = require("express");
@@ -70,10 +70,7 @@ app.use(
 app.listen(PORT);
 ```
 
-<<<<<<< HEAD
-make sure you have installed express (npm install express), cors (npm install cors) and http-proxy-middleware (npm i http-proxy-middleware).
-=======
-make sure you have installed express (npm install express), cors (npm install cors) and http-proxy-middleware (npm i http-proxy-middleware) to run this code.
 
-> > > > > > > watson token generator
-> > > > > > > for complete documentation of http-proxy-middleware you can find [here!](https://github.com/chimurai/http-proxy-middleware#readme)
+Make sure you have installed express (npm install express), cors (npm install cors) and http-proxy-middleware (npm i http-proxy-middleware) to run this code.
+
+for complete documentation of http-proxy-middleware you can find [here!](https://github.com/chimurai/http-proxy-middleware#readme)
