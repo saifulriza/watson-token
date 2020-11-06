@@ -1,12 +1,10 @@
-
 ## Warning
 
-Don't use this package for production. your apikey will exposed when program generating token
-=======
+# Don't use this package for production. your apikey will exposed when program generating token
+
 ## IBM Watson Token Generator
 
 ![Publish package](https://github.com/saifulriza/watson-token/workflows/Publish%20package/badge.svg?branch=main)
-
 
 ## Installation
 
@@ -70,7 +68,8 @@ app.use(
 app.listen(PORT);
 ```
 
+Make sure you have installed express (npm install express), cors (npm install
+cors) and http-proxy-middleware (npm i http-proxy-middleware) to run this code.
 
-Make sure you have installed express (npm install express), cors (npm install cors) and http-proxy-middleware (npm i http-proxy-middleware) to run this code.
-
-for complete documentation of http-proxy-middleware you can find [here!](https://github.com/chimurai/http-proxy-middleware#readme)
+for complete documentation of http-proxy-middleware you can find
+[here!](https://github.com/chimurai/http-proxy-middleware#readme)
